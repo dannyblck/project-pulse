@@ -1,11 +1,11 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,CAAC,AAAC,CAAC,UAAU,CAAE,UAAU,CACvB,WAAW,CAAE,wBAAwB,CACtC,AAGD,AAAA,UAAU,AAAC,CACT,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,MAAM,CACf,AGRD,AAAA,MAAM,AAAC,CACH,SAAS,CAAE,KAAK,CAChB,OAAO,CAAE,WAAW,CACpB,UAAU,CAAE,sBAAsB,CAAC,MAAM,CAAC,YAAY,CAAC,SAAS,CACnE",
+    "mappings": "AAAA,AAAA,CAAC,AAAC,CACA,UAAU,CAAE,UAAU,CACtB,WAAW,CAAE,mBAAmB,CAAG,AAGrC,AAAA,UAAU,AAAC,CACT,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,MAAM,CAAG,AGPnB,AAAA,MAAM,AAAC,CACH,UAAU,CAAE,KAAK,CACjB,OAAO,CAAE,WAAW,CACpB,UAAU,CAAE,qBAAqB,CAAG",
     "sources": [
-        "../sass/style.scss",
-        "../sass/base/_variables.scss",
-        "../sass/base/_mixins.scss",
-        "../sass/_promo.scss"
+        "../sass/style.sass",
+        "../sass/base/_variables.sass",
+        "../sass/base/_mixins.sass",
+        "../sass/_promo.sass"
     ],
     "names": [],
     "file": "style.min.css"
