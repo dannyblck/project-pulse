@@ -1,7 +1,10 @@
 * {box-sizing: border-box;
   font-family: 'Museo Sans', sans-serif;
 }
-@import "variables";
-@import "mixins";
-@import "general";
-@import "media";
+@import "base/variables";
+@import "base/mixins";
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+@import 'promo';
