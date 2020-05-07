@@ -27,12 +27,13 @@
 
 .icon-instagram:before {
   content: "\e900";
-  color: #e4405f;
+  color: #ffffff;
 }
 .icon-pinterest:before {
   content: "\e903";
-  color: #bd081c;
+  color: #ffffff;
 }
 .icon-facebook:before {
   content: "\ea90";
+  color: #ffffff
 }
