@@ -3,6 +3,7 @@
     &__tabs
         display: flex
         justify-content: center
+        align-items: center
         margin-top: 70px
         list-style-type: none
         margin-bottom: 0
@@ -32,12 +33,14 @@
             border: none
     &__content
         margin-top: 60px
-        display: flex
+        display: none
         justify-content: space-between
         flex-wrap: wrap
+        &_active
+            display: flex
 
     &_item
-        padding: 20px 20px 25px
+        padding: 20px 10px 25px
         overflow: hidden
         width: 300px
         min-height: 440px
@@ -67,6 +70,7 @@
             line-height: 1.2
             font-weight: 500
             color: $main_color
+            text-transform: uppercase
             &:hover
                 color: $main_color
         &__footer
@@ -131,3 +135,16 @@
                     background-color: $main_color
                     left: -14px
                     top: 7px
+        &__back
+            position: absolute
+            bottom: 0
+            left: 50%
+            transform: translateX(-60%)
+            display: block
+            color: $main_color
+            font-size: 14px
+            line-height: 1.2
+            font-weight: 500
+            text-transform: uppercase
+            &:hover
+                color: $main_color
