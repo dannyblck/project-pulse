@@ -28,9 +28,29 @@ $(document).ready(function(){
                 $('.catalog_item__content').eq(i).toggleClass('catalog_item__content_active');
                 $('.catalog_item__list').eq(i).toggleClass('catalog_item__list_active');
             })
-        });
+        }); 
     };
 
     toggleSlide('.catalog_item__link');
     toggleSlide('.catalog_item__back');
+
+    // ----  Modal
+
+    // For open in promo
+    $('[data-modal=consultation]').on('click', function () {
+        $('.overlay, #consultation').fadeIn('slow');
+    });
+
+    // For close modal windows
+    $('.modal__close').on('click', function () {
+        $('.overlay, #consultation, #thanks, #order').fadeOut('slow');
+    });
+
+    // For open in tabs (2nd string) and change name item in modal (1st string)
+    $('.button_tabs').each(function(i) {
+        $(this).on('click', function() {
+            $('#order .modal__descr').text($('.catalog_item__subtitle').eq(i).text());
+            $('.overlay, #order').fadeIn('slow');
+        })
+    });
 });
